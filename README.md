@@ -37,7 +37,7 @@ Resultado:
 
 ## Como entregar
 
-Creen un `README.md` con este contenido:
+Copien el `Form1.cs` y el `Form1.Designer.cs` en otra carpeta. Creen un `README.md` con este contenido:
 
 ```markdown
 # Calculadora
@@ -45,13 +45,15 @@ Creen un `README.md` con este contenido:
 Alumno: Nombre y Apellido
 Curso: Curso
 Materia: Representación Visual y Frontal de Datos
+
+[imagen de la calculadora]
 ```
 
 Luego en la terminal corran:
 
 ```
 git init
-git add .
+git add Form1.cs Form1.Designer.cs README.md img.png
 git commit -m "Initial commit"
 git checkout -b rvfd/2021/c#/calculadora
 git push https://github.com/trq20/USERNAME.git rvfd/2021/c#/calculadora
