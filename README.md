@@ -31,7 +31,7 @@ tft.pixel(120, 120, st7789.YELLOW)  # Pixel amarillo en el centro del display
 
 - Recuerden que tiene el método `line` para graficar lineas. Sus argumentos son: `x0`, `y0`, `x1`, `y1`, `color`. Ejemplo: 
 
-```
+```python
 tft.line(0, 0, 120, 120, st7789.YELLOW) # Linea amarilla con origen en el extremo 
                                         # superior izquierdo y fin en el centro
 ```
