@@ -294,18 +294,7 @@ class ST77xx:
                 y0 += ystep
                 err += dx
             x0 += 1
-            
-    def circle(self, x0, y0, r, color):
-      
-      for alpha in range(360):
-        
-        x = r * cos(alpha)
-        y = r * sin(alpha)
-        
-        x = int(x + x0)
-        y = int(y + y0)
-        self.pixel(x, y, color)
-        
+                
 
 class ST7789(ST77xx):
     def init(self, *, color_mode=ColorMode_65K | ColorMode_16bit):
